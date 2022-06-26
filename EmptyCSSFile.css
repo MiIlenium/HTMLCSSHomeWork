@@ -1,0 +1,36 @@
+﻿*{background-color: gray;}
+
+.middleFrame{
+  position: fixed;
+  top: 25%;
+  left: 30%;
+  box-sizing: content-box;
+  width: 40%;
+  height: 42%;
+  background-color: rgb(226, 161, 174);
+}
+
+.middleFrame:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.row{
+  margin: 20px;
+  color: black;
+  display: flex;
+  background-color: rgb(186, 104, 119)
+}
+
+.counter{
+  margin: 5px;
+  color: black;
+  background-color: rgb(186, 104, 119);
+}
+
+.content{
+  margin-left: 5px;
+  color: black;
+  background-color: rgb(147,60,75);
+}
